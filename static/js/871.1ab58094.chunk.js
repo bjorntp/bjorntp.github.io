@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbjorntp_github_io=self.webpackChunkbjorntp_github_io||[]).push([[871],{6871:(t,e,p)=>{t.exports=p.p+"static/media/1240.cec3bca10601012271a2.png"}}]);
