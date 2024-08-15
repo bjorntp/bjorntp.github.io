@@ -1,15 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    fontFamily: {
-      'Robot': ['Roboto']
-    },
-    extend: {
-      backgroundImage: {
-        ahus: "url('/src/assets/ahus_cropped.jpg')",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
+
