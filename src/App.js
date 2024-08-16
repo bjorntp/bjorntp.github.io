@@ -12,8 +12,8 @@ function App() {
       <Header />
       <Router>
         <Routes>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
         </Routes>
       </Router>
     </div>
