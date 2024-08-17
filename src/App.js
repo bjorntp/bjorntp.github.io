@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-[url('./assets/ahus_cropped.jpg')] w-screen h-screen">
+    <div className="bg-[url('./assets/ahus_cropped.jpg')] w-screen h-screen font-Robot">
       <Header />
       <Router>
         <Routes>
