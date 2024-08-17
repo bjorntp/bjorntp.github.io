@@ -22,7 +22,7 @@ function About() {
       </div>
       <div className='col-start-5 col-span-3'>
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
-          <h2 className='text-3xl'>Björn Tenje Persson</h2>
+          <h2 className='text-3xl'>BJÖRN TENJE PERSSON</h2>
         </div>
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
           <h2 className='text-xl'>UTBILDNING</h2>
@@ -50,8 +50,7 @@ function About() {
           <h3 className='font-bold'>Mio möbler</h3>
           <ul className='indent-2'>
             <li>2017 - pågående</li>
-            <li></li>
-            <li></li>
+            <li>Säljare och lagermedarbetare</li>
           </ul>
         </div>
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
