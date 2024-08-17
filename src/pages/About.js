@@ -3,32 +3,34 @@ import profil from "../assets/profil_cropped.jpg"
 
 function About() {
   return (
-    <div className='grid grid-cols-9 w-screen'>
-      <div className='col-start-3 col-span-2 m-5 flex flex-col content-between'>
+    <div className='grid md:grid-cols-9 grid-cols-1 w-screen'>
+      <div className='md:col-start-3 md:col-span-2 m-5 flex flex-col content-between'>
         <img src={profil} alt="Björn" className='rounded-full mb-5' />
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md p-2'>
           <h3 className='text-xl mb-2'>Hejsan!</h3>
           <p className=''>Mitt namn är Björn, välkommen till min sida!</p>
         </div>
+
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md mt-5 p-2'>
           <h3 className='text-xl mb-2'>KONTAKTINFORMATION</h3>
           <h4 className='font-bold'>Telefonnummer</h4>
-          <p className='indent-1'>0727199689</p>
+          <p className='indent-1'>(+46) 0727 19 96 89</p>
           <h4 className='font-bold'>E-post</h4>
           <p className='indent-1'><a href="mailto:bjorn@tenje.se">bjorn@tenje.se</a></p>
           <h4 className='font-bold'>GitHub</h4>
           <p className='indent-1'><a href="https://github.com/bjorntp">bjorntp</a></p>
         </div>
       </div>
-      <div className='col-start-5 col-span-3'>
-        <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
+
+      <div className='md:col-start-5 md:col-span-3 m-5 flex-col content-between'>
+        <div className='bg-gray-200/30 backdrop-blur-md rounded-md mt-5 p-2'>
           <h2 className='text-3xl'>BJÖRN TENJE PERSSON</h2>
         </div>
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
           <h2 className='text-xl'>UTBILDNING</h2>
           <h3 className='font-bold'>Lunds Tekniska Högskola</h3>
           <p>2019 - pågående</p>
-          <p>Civilingenjör i information- och kommunikationsteknik</p>
+          <p>Civilingenjör i Information- och kommunikationsteknik</p>
           <ul className='list-disc ml-4'>
             <li>Programmeringsteknik och flertrådad programmering</li>
             <li>Avancerad interraktionsdesign</li>
@@ -53,6 +55,7 @@ function About() {
             <li>Säljare och lagermedarbetare</li>
           </ul>
         </div>
+
         <div className='bg-gray-200/30 backdrop-blur-md rounded-md m-5 p-2 mx-auto w-full'>
           <h2 className='text-xl'>KUNSKAPER</h2>
           <h3 className='font-bold'>Inom IT</h3>
