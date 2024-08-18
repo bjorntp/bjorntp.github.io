@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@layer components {
+  .about-window {
+    @apply bg-gray-200/30 backdrop-blur-2xl rounded-md mt-5 p-2;
+  }
+}
