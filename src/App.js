@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route index element={<About />} />
           <Route path="about" element={<About />} />
+          <Route path="*" element={<About />} />
         </Routes>
       </Router>
     </div>
