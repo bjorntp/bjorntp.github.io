@@ -1,3 +1,7 @@
+# Personlig hemsida
+Skriven i React med JavaScript eftersom vi använde det i vår webbprogrammeringskurs, om den ska vidareutvecklas blir det typescript istället.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
