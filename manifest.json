@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "tenje.se",
+  "name": "Björn Tenje Perssons hemsida med lite information om vem jag är.",
   "icons": [
     {
       "src": "favicon.ico",
