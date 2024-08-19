@@ -54,6 +54,7 @@ function About() {
             <li>Programmeringsteknik och flertrådad programmering</li>
             <li>Avancerad interraktionsdesign</li>
             <li>Dator- och webbsäkerhet</li>
+            <li>Mycket mer</li>
           </ul>
         </div>
 
