@@ -80,6 +80,11 @@ function About() {
             <li>2016-2017</li>
             <li>Köksarbete under högsäsong i skidort</li>
           </ul>
+          <h3 className='font-bold'>Eget</h3>
+          <ul className='indent-2'>
+            <li><a class="underline underline-offset-2" href="https://github.com/bjorntp/adventofcode/tree/main">Advent of code lösningar</a></li>
+            <li><a class="underline underline-offset-2" href="https://bjorntp.com/">Prisövervakning Systembolaget</a></li>
+          </ul>
         </div>
 
         <div className='about-window'>
