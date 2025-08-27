@@ -1,16 +1,13 @@
-import React from 'react';
-import profil from "../assets/profil_cropped.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import bjornCropped from '../assets/profil_cropped.jpg'
 
-// <div className='bg-gray-200/30 backdrop-blur-md rounded-md p-2'>
-function About() {
-
+const About = () => {
   return (
     <div className='grid md:grid-cols-9 grid-cols-1 w-screen'>
       <div className='md:col-start-3 md:col-span-2 md:m-5 mx-5 mt-5 flex flex-col content-between'>
-        <img src={profil} alt="Björn" className='rounded-full mb-5' />
+        <img src={bjornCropped} alt="Björn" className='rounded-full mb-5' />
         <div className='about-window mt-0'>
           <h3 className='text-xl mb-2'>Hejsan!</h3>
           <p className=''>Mitt namn är Björn, välkommen till min sida!</p>
@@ -60,10 +57,16 @@ function About() {
 
         <div className='about-window'>
           <h2 className='text-xl'>ARBETE</h2>
+          <h3 className='font-bold'>WEIQ</h3>
+          <ul className='indent-2'>
+            <li>Sommar 2025</li>
+            <li>Fullstack utveckling</li>
+            <li>Självständig utveckling från början till slut av ett projekt som i Java och Typescript.</li>
+          </ul>
           <h3 className='font-bold'>Teknikfokus Arbetsmässa (volontär)</h3>
           <ul className='indent-2'>
             <li>2021 - 2022</li>
-            <li>IT-ansvaring</li>
+            <li>IT-ansvarig</li>
             <li>Omskrivning av webbsidan samt en del av projektgruppen som skapade årets <a className='underline underline-offset-2' href="https://github.com/teknikfokus/fair.teknikfokus.se">onlineplattform</a>.</li>
           </ul>
           <h3 className='font-bold'>Sekreterare i bostadsrättsförening</h3>
@@ -72,7 +75,7 @@ function About() {
           </ul>
           <h3 className='font-bold'>Mio möbler</h3>
           <ul className='indent-2'>
-            <li>2017 - pågående</li>
+            <li>2017 - 2025</li>
             <li>Säljare och lagermedarbetare</li>
           </ul>
           <h3 className='font-bold'>Harry's bruger</h3>
@@ -82,8 +85,8 @@ function About() {
           </ul>
           <h3 className='font-bold'>Eget</h3>
           <ul className='indent-2'>
-            <li><a class="underline underline-offset-2" href="https://github.com/bjorntp/adventofcode/tree/main">Advent of code lösningar</a></li>
-            <li><a class="underline underline-offset-2" href="https://bjorntp.com/">Prisövervakning Systembolaget</a></li>
+            <li><a className="underline underline-offset-2" href="https://github.com/bjorntp/adventofcode/tree/main">Advent of code lösningar</a></li>
+            <li><a className="underline underline-offset-2" href="https://bjorntp.com/">Prisövervakning Systembolaget</a></li>
           </ul>
         </div>
 
@@ -107,4 +110,4 @@ function About() {
   );
 }
 
-export default About;
+export { About };
