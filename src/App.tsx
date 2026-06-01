@@ -1,16 +1,16 @@
-import './App.css';
+import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { About } from './pages/About';
+import { Home } from "./pages/Home";
 
 const App = () => (
-  <div className="bg-[url(./assets/ahus_cropped.jpg)] bg-fixed bg-no-repeat bg-center w-screen font-Robot bg-cover min-h-screen">
+  <div>
     <Router>
       <Routes>
-        <Route index element={<About />} />
-        <Route path="*" element={<About />} />
+        <Route index element={<Home />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   </div>
-)
+);
 export default App;
