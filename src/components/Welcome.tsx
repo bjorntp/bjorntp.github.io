@@ -7,8 +7,9 @@ export const Welcome = () => {
     <div className='py-10'>
       <div className='mx-auto h-full w-full px-6 text-center lg:px-16'>
         <div className='mx-auto w-full text-4xl font-bold lg:w-1/3 lg:text-5xl'>
-          <h2>Varmt välkomna till</h2>
-          <h2>vårt bröllop</h2>
+          <h2>
+            Varmt välkomna <br /> till vårt bröllop
+          </h2>
         </div>
         <div className='mx-auto w-full pt-5 font-montserrat lg:w-1/2'>
           <p>
@@ -20,7 +21,7 @@ export const Welcome = () => {
         </div>
         <div className='mx-auto pt-10'>
           <img
-            className='my-auto mx-auto rounded-full w-64 h-64 object-cover hover:animate-spin'
+            className='my-auto mx-auto rounded-full w-64 h-64 object-cover'
             src={amandabjorn}
             alt='Amanda och Björn'
           />
@@ -30,7 +31,7 @@ export const Welcome = () => {
             {numberArray.map((number) => (
               <div key={number} className='flex items-center'>
                 <p className='text-xl whitespace-nowrap mx-1'>
-                  BAREN TAR ENBART KONTANTER!
+                  BAREN TAR ENDAST KONTANTER!
                 </p>
                 <div className='w-px h-5 bg-wine mx-2' />
               </div>

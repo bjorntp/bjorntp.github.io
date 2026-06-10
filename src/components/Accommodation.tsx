@@ -63,7 +63,7 @@ export const Accommodation = () => {
           bröllopslokalen och kostar 10kr/h.
         </p>
       </div>
-      <div className='mt-2 aspect-[5/4] w-full overflow-hidden md:mt-12 md:max-w-[36rem] md:flex-1 md:self-stretch'>
+      <div className='hidden mt-2 aspect-[5/4] w-full overflow-hidden md:mt-12 md:block md:max-w-[36rem] md:flex-1 md:self-stretch'>
         <img
           className='h-full w-full object-cover object-center'
           src={kronohuset}

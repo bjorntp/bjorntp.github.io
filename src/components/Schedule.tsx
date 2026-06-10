@@ -56,7 +56,7 @@ export const Schedule = () => {
             <ScheduleTextBox
               title='Mingel'
               subtitle='Brudskål'
-              time='17:15'
+              time='17:30'
               place='Stora Kronohuset'
               address='Christian IV:s gata, 291 29 Kristianstad'
               transport='Kronohuset ligger mitt i stan på Stora torg - nära till både hotell, tågstation och parkeringsmöjligheter. '
