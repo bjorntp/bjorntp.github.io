@@ -46,8 +46,11 @@ export const ToastMasters = () => {
 
       <div className='mx-auto mt-12 w-full max-w-3xl bg-blush px-6 py-10 md:px-10 md:py-12'>
         <span className='block text-center font-montserrat text-sm leading-7 md:text-base'>
-          Notera: Vi har bara utrymme för föranmälda tal eftersom det är ett
-          tight schema för kvällen. Vi ber er hålla talen max 3 minuter långa.
+          Alla gäster är varmt välkomna att hålla tal - det är något vi ser fram
+          emot! Om du vill hålla ett tal, vänligen kontakta Emma eller Per i god
+          tid innan brölloppet. Det är enbart föranmälda tal som gäller och vi
+          uppskattar om de hålls runt 3 minuter så att alla som vill kan få
+          chansen.
         </span>
       </div>
     </div>
