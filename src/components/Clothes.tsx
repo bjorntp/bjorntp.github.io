@@ -18,9 +18,10 @@ export const Clothes = () => {
           <p className='mt-8 font-montserrat text-sm leading-7 lg:text-[0.95rem]'>
             Den finaste gåvan för oss är att få fira dagen tillsammans med er.
             Vi önskar oss därför inga saker. Vill ni ändå ge en present blir vi
-            väldigt glada för ett bidrag till vår bröllopsresa. Det gör ni
-            enklast genom att Swisha brudens mor: <br /> Marie Nilsson på
-            073-396 52 96.
+            väldigt glada för ett bidrag till vår bröllopsresa. Vi kommer
+            spendera två dagar på Ästad vingård efter bröllopet, men planerar en
+            längre bröllopsresa under 2027. Om ni vill bidra gör ni det enklast
+            genom att Swisha brudens mor: Marie Nilsson på 073-396 52 96.
           </p>
         </div>
       </div>

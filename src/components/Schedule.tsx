@@ -49,7 +49,7 @@ export const Schedule = () => {
               place='Råbelöfs Kyrka'
               address='Råbelöfsallén 100-21, 291 96 Kristianstad'
               transport='Transport till kyrkan planeras på egen hand genom bil eller taxi. Samåkning rekommenderas.'
-              description='Vi vill inte att gästerna fotograferar under vigselns intåg. Därefter ber vi er vara sparsamma med att ta bilder då vi mycket hellre ser era ansikten än en kamera/mobil!'
+              description='Vi vill inte att gästerna fotograferar under vigselns intåg eller under ceremonin - då vi mycket hellre vill se era ansikten än en kamera/mobil. Vi har en fotograf på plats. Det går bra att ta bilder vid vigselns utgång.'
             />
           </div>
           <div className='flex flex-1 items-center justify-center pt-2 text-center md:px-8 md:pt-0'>
@@ -60,7 +60,7 @@ export const Schedule = () => {
               place='Stora Kronohuset'
               address='Christian IV:s gata, 291 29 Kristianstad'
               transport='Kronohuset ligger mitt i stan på Stora torg - nära till både hotell, tågstation och parkeringsmöjligheter. '
-              description='Mellan vigseln och minglet finns det tid att parkera bilen, checka in på ert hotell, eller ta en drink vid någon av de närliggande barerna, innan det är dags för brudskål i festlokalen.'
+              description='Mellan vigseln och minglet finns det tid att parkera bilen och checka in på ert hotell, men var gärna på plats i god tid innan det är dags för brudskål klockan 17.30 i festlokalen.'
             />
           </div>
           <div className='flex flex-1 items-center justify-center pt-2 text-center md:px-8 md:pt-0'>
