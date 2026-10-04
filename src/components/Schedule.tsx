@@ -48,7 +48,7 @@ export const Schedule = () => {
               time='15:30'
               place='Råbelöfs Kyrka'
               address='Råbelöfsallén 100-21, 291 96 Kristianstad'
-              transport='Transport till kyrkan planeras på egen hand genom bil eller taxi. Samåkning rekommenderas.'
+              transport='Var på plats i god tid, vigseln börjar 15:30. Transport till kyrkan planeras på egen hand genom bil eller taxi. Samåkning rekommenderas.'
               description='Vi vill inte att gästerna fotograferar under vigselns intåg eller under ceremonin - då vi mycket hellre vill se era ansikten än en kamera/mobil. Vi har en fotograf på plats. Det går bra att ta bilder vid vigselns utgång.'
             />
           </div>
